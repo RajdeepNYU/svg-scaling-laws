@@ -1,8 +1,9 @@
-torch
-numpy
+torch>=2.0
+numpy>=1.23
 tqdm
 datasets
 sentencepiece
 lxml
 cairosvg
 matplotlib
+pandas

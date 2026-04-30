@@ -1,0 +1,16 @@
+{
+  "vocab_size": 2048,
+  "block_size": 512,
+  "n_layer": 6,
+  "n_head": 8,
+  "n_embd": 256,
+  "dropout": 0.1,
+  "batch_size": 32,
+  "learning_rate": 0.003,
+  "max_iters": 2000,
+  "eval_interval": 200,
+  "eval_iters": 50,
+  "warmup_iters": 100,
+  "use_amp": true,
+  "out_dir": "outputs/base"
+}

@@ -1,0 +1,4 @@
+split,xml_valid,total_checked,xml_validity_rate
+train,503264,503264,1.0
+val,5135,5135,1.0
+test,5136,5136,1.0

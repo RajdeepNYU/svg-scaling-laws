@@ -1,0 +1,6 @@
+{
+  "split": "train",
+  "sample_size": 500,
+  "rendered": 500,
+  "render_rate": 1.0
+}

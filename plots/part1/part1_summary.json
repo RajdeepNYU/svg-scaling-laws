@@ -1,0 +1,75 @@
+{
+  "datasets_used": [
+    "starvector/svg-icons-simple",
+    "starvector/svg-emoji-simple",
+    "starvector/svg-fonts-simple subset"
+  ],
+  "cleaning_steps": [
+    "Removed comments",
+    "Removed metadata",
+    "Normalized floating point precision to 1 decimal place",
+    "Filtered short SVGs below 50 characters",
+    "Filtered long SVGs above selected maximum length",
+    "Validated XML parseability with lxml",
+    "Canonicalized XML serialization"
+  ],
+  "tokenizer": {
+    "type": "SentencePiece BPE",
+    "vocab_size": 2048
+  },
+  "splits": [
+    {
+      "split": "train",
+      "num_files": 503264,
+      "tokens": 104230630,
+      "min_chars": 210,
+      "mean_chars": 806.7440369269409,
+      "median_chars": 740.0,
+      "max_chars": 2048
+    },
+    {
+      "split": "val",
+      "num_files": 5135,
+      "tokens": 1060271,
+      "min_chars": 262,
+      "mean_chars": 804.1600778967868,
+      "median_chars": 737.0,
+      "max_chars": 2046
+    },
+    {
+      "split": "test",
+      "num_files": 5136,
+      "tokens": 1069201,
+      "min_chars": 243,
+      "mean_chars": 810.731308411215,
+      "median_chars": 738.0,
+      "max_chars": 2046
+    }
+  ],
+  "xml_validity": [
+    {
+      "split": "train",
+      "xml_valid": 503264,
+      "total_checked": 503264,
+      "xml_validity_rate": 1.0
+    },
+    {
+      "split": "val",
+      "xml_valid": 5135,
+      "total_checked": 5135,
+      "xml_validity_rate": 1.0
+    },
+    {
+      "split": "test",
+      "xml_valid": 5136,
+      "total_checked": 5136,
+      "xml_validity_rate": 1.0
+    }
+  ],
+  "render_validation_sample": {
+    "split": "train",
+    "sample_size": 500,
+    "rendered": 500,
+    "render_rate": 1.0
+  }
+}

@@ -1,6 +1,9 @@
 data/
 outputs/
-plots/
+plots/*
+!plots/*.png
+!plots/*.jpg
+!plots/*.jpeg
 *.bin
 *.npy
 *.pt
